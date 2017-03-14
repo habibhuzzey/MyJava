@@ -4,3 +4,4 @@
 //Secondly, the new added task has to be shown on the to-do list part.
 //Be able to edit and delete tasks. add event handlers for both buttons.
 //Add completed tasks to the completed task list.
+
