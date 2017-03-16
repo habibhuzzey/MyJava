@@ -25,7 +25,12 @@ var deleteButton = document.createElement("button");
 
 //Each element needs modifying
 checkBox.type = "checkbox";
-editInput.type = "type";
+editInput.type = "text";
+
+editButton.innerText = "Edit";
+editButton.className = "edit";
+deleteButton.innerText = "Delete";
+deleteButton.className = "delete";
 
 //Each element needs appending 
 listItem.appendChild(checkbox);
