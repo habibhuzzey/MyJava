@@ -21,12 +21,20 @@ var editInput = document.createElemnt("input"); // text
 //button.edit
 var editButton = document.createElement("button");
 //button.delete
-var deleteButton = document.createElement("button")
+var deleteButton = document.createElement("button");
 
 //Each element needs modifying
+checkBox.type = "checkbox";
+editInput.type = "type";
 
+//Each element needs appending 
+listItem.appendChild(checkbox);
+listItem.appendChild(label);
+listItem.appendChild(editInput);
+listItem.appendChild(editButton);
+listItem.appendChild(deleteButton);
 
-
+return listItem;
 
 }
 }
