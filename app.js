@@ -5,6 +5,7 @@ var addButton = document.getElementByClassName(add);
 addButton.onclick = addTask();
 var addTask = function(){
   //display new task in to do list section. 
+    
 }
 //Secondly, the new added task has to be shown on the to-do list part.
 //Be able to edit and delete tasks. add event handlers for both buttons.
