@@ -20,7 +20,7 @@ var checkbox = document.createElement("input");//checkbox
 var label = document.creaeElemt("label");
 
 //input (text)
-var editInput = document.createElemnt("input"); // text
+var editInput = document.createElement("input"); // text
 //button.edit
 var editButton = document.createElement("button");
 //button.delete
