@@ -6,6 +6,9 @@ addButton.onclick = addTask();
 var addTask = function(){
   
   //display new task in to do list section. 
+  
+}
+
     var createNewTaskElement = (newTaskString){
 //create list Item
 var listItem = document.createElement("li");
@@ -40,9 +43,28 @@ listItem.appendChild(editButton);
 listItem.appendChild(deleteButton);
 
 return listItem;
+}
+  
+ //add new Task
+var addTask = function(){
+  console.log("Add task...");
+  //create a new list item with the text from new-task:
+  var listItem = createNewTaskElement("Some New task");
+  //append list Item to incompleteTaskHolder
+  incompleteTaskHolder.appendChild(listItem);
+  bindTaskEvents(listItem, taskCompleted);
+
+} 
+
+/Edit an existing task
+var editTask = function() {
+console.log("Edit Task...");
+//when the edit button is pressed
+//if the class of the parent is .editMode
+//switch from .editMode
 
 }
-}
+  
 //Secondly, the new added task has to be shown on the to-do list part.
 //Be able to edit and delete tasks. add event handlers for both buttons.
 //Add completed tasks to the completed task list.
