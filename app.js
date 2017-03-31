@@ -17,7 +17,7 @@ var listItem = document.createElement("li");
 var checkbox = document.createElement("input");//checkbox
 
 //label
-var label = document.creaeElemet("label");
+var label = document.creaeElement("label");
 
 //input (text)
 var editInput = document.createElement("input"); // text
